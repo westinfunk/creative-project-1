@@ -1,16 +1,30 @@
 body {
   font-family: Roboto;
   min-height: 100%;
+  background-color: rgb(235, 235, 235);
 }
 
 .navbar {
   padding: 10px 50px;
+  color: white;
+  background: linear-gradient(to left, rgb(133, 193, 228), rgb(224, 224, 224));
+  box-shadow: 0px 6px 10px #888888;
 }
 
 .content {
   width: 70%;
   margin: auto;
   margin-bottom: 50px;
+  background-color: white;
+  padding: 50px;
+}
+
+.content h1 {
+  color: rgb(119, 173, 204);
+}
+
+.top-off {
+  padding-top: 5%;
 }
 
 .header {
@@ -26,7 +40,7 @@ body {
 .footer {
   padding: 15px;
   text-align: center;
-  background-color: orange;
+  background-color: rgb(224, 224, 224);
   width: 100%;
 }
 
@@ -39,6 +53,8 @@ body {
 }
 
 .feed {
+  justify-content: center;
+  margin: auto;
   display: flex;
   flex-flow: row wrap;
 }
@@ -53,4 +69,14 @@ body {
 
 .feed img {
   max-width: 100%;
+  box-shadow: 0px 6px 10px #888888;
+}
+
+.btn-primary {
+  background-color: rgb(133, 193, 228);
+  border-color: rgb(108, 155, 182);
+}
+
+.about-pup {
+  box-shadow: 0px 6px 10px #888888;
 }
