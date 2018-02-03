@@ -9,3 +9,18 @@ html {
 .navbar {
   box-shadow: none;
 }
+
+.splash {
+  color: white;
+  font-family: dosis;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.splash h1 {
+  font-size: 7em;
+  margin: 50px;
+}
